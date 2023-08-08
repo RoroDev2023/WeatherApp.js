@@ -1,3 +1,12 @@
+# WeatherApp.js
+
+<img width="1679" alt="Screenshot 2023-08-08 at 23 43 22" src="https://github.com/RoroDev2023/CarRental.js/assets/135022367/1f2adc85-6117-4007-9f63-f44908d2757d">
+
+## The user should generate his/her own private key at openweathermap.com and navigate to `App.js`, then locate the dictionary `const api` (api) and then replace the text with the api key at variable `key` 
+
+### A weather app created in React and styled in CSS. The weather information is fetched using an API generated from openweathermap.com
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

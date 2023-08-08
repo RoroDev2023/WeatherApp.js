@@ -1,13 +1,229 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+body {
+  font-family: 'montseratt', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Proxima Nova";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #1d1d1d;
+}
+
+.frame {
+  height: 820px;
+  width: 500px;
+  background-color: dodgerblue;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(2px);
+  position: relative;
+  border-radius: 45px;
+  border: 4px solid dodgerblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(2px);
+  
+}
+
+.search-box {
+  display: flex;
+}
+
+
+.search-bar{
+  margin-top: 25px;
+  width: 300px;
+  height: 48px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.search-btn {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  border: 0;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.search-icon {
+  font-size: 24px;
+}
+
+.info {
+  width: 95%;
+  height: 86.5%;
+  border-radius: 35px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(2px);
+  z-index: -1;
+  transition: 0.4s ease-in-out;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 45px;
+  color: white;
+  font-weight: 500;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#city {
+  margin-left: 5px;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+#country {
+  font-weight: 700;
+}
+
+.full_date {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.fullweather_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather_icon {
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+}
+
+#weather_unit {
+  display: flex;
+  justify-content: center;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: -15px;
+  color: white;
+}
+
+#weather_disc {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#weather_border {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 420px;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  height: 100%;
+  width: 95%;
+  background-color: rgb(27, 27, 27, 0.7);
+  margin: 10px;
+  margin-top: 15px;
+  border-radius: 25px;
+}
+
+
+.weather_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.weather_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 23px;
+  margin-top: 20px;
+}
+
+
+#center_bar {
+  height: 90%;
+  width: 6px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.weather_ic {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 80px;
+  margin-top: 15px;
+}
+
+.left, .right, .middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 33.33%;
+}
+

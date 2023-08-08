@@ -15,7 +15,7 @@ import rainImg from '../src/images/rain.jpeg';
 import mistImg from '../src/images/mist.jpeg';
 
 const api = {
-  key: "92f4379c7945d4bbec80dd383f0db10b",
+  key: "YOUR_API_KEY",
   base: "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 };
 
